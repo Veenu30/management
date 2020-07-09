@@ -8,6 +8,7 @@ const pathToForm=path.join(__dirname,"public");
 const pathToViews=path.join(__dirname);
 /*const pathToViews=path.join(__dirname,"views");*/
 const pathToPartials=path.join(__dirname,"templates");
+const port=process.env.PORT || 3200;
 app.set('view engine','hbs');
 app.set('views',pathToViews);
 app.use(bodyParser.urlencoded());
@@ -46,7 +47,7 @@ app.post("/oldstudentregistration",urlEncoded,function(req,res){
 app.post("/newstudenyregistration",urlEncoded,function(req,res){
     res.render("views/newstudentrsuccess",{data:req.body});
 })
-app.listen(3200,()=>{
+app.listen(port,()=>{
      console.log("server is running");
  }
  )
