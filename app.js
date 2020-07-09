@@ -45,7 +45,7 @@ app.post("/oldstudentregistration",urlEncoded,function(req,res){
     res.render('oldstudentrsuccess',{data:req.body});
 })
 app.post("/newstudenyregistration",urlEncoded,function(req,res){
-    res.render("views/newstudentrsuccess",{data:req.body});
+    res.render("newstudentrsuccess",{data:req.body});
 })
 app.listen(port,()=>{
      console.log("server is running");
