@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <style>
+        .container-fluid{
+        
+            height: 700px;
+        background-image: linear-gradient(to bottom right, rgba(255,140,0,0.6),rgba(255,140,0,0.2));
+            
+        }
+        .a{
+            margin:auto;
+            padding: auto;
+        }
+        
+        table,th,td{
+            
+    
+            
+        }
+        th,td{
+            padding: 14px;
+        }
+    </style>
+</head>
+<body>
+   <div class="container-fluid ">
+      <div class="b" style="width:100%;height: 50px;">
+          <center><h2 style="color: red;font-weight: bold;">Registration Sucessfull</h2></center>
+          <ul style="float:right;list-style-type: none">
+              <li><a href="" style="color: black"><span class="fa fa-print" aria-hidden="true" style="font-size: 25px;"></span></a></li>
+          </ul>
+          </div>
+           
+            <table class="a" CELLSPACING=50 style="margin-top: 50px;">
+<tr>
+    <th>Name:</th>
+    <td>{{data.name}}</td>
+</tr>
+<tr>
+    <th>User Name:</th>
+    <td>{{data.user}}</td>
+</tr>
+<tr>
+    <th>Email Id:</th>
+    <td>{{data.email}}</td>
+</tr>
+<tr>
+    <th>Date of birth:</th>
+    <td>{{data.dob}}</td>
+</tr>
+<tr>
+    <th>Phone Number:</th>
+    <td>{{data.number}}</td>
+</tr>
+<tr>
+    <th>Gender:</th>
+    <td>{{data.gender.value}}</td>
+</tr>
+
+<tr>
+    <th>Year of passing:</th>
+    <td>{{data.pass}}</td>
+</tr>
+        </table>
+      
+       
+       
+   </div>
+    
+</body>
+</html>

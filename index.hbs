@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Home page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    @media only screen and (max-width:665px) {
+        .b1 {
+            font-size: 10px;
+
+        }
+    }
+
+    @media only screen and (min-width:665px) {
+        .b1 {
+            font-size: 11px;
+
+        }
+    }
+
+    @media only screen and (min-width:784px) {
+        .b1 {
+            font-size: 12px;
+
+        }
+    }
+
+    @media only screen and (min-width:1025px) {
+        .b1 {
+            font-size: 15px;
+
+        }
+    }
+
+    @media only screen and (min-width:680px) {
+        .c1 {
+            font-size: 18px;
+
+        }
+    }
+
+    @media only screen and (min-width:890px) {
+        .c1 {
+            font-size: 20px;
+
+        }
+    }
+
+    @media only screen and (max-width:575px) {
+        .j h3 {
+            font-size: 5px;
+            padding-left: 30px;
+        }
+
+        .dl h4 {
+            font-size: 12px;
+
+        }
+
+        .dl {
+            padding-left: 20px;
+        }
+    }
+
+
+
+    .nav-link {
+        margin: auto;
+    }
+
+    .nav-link:hover {
+        font-size: 23px;
+        color: hotpink;
+    }
+
+    
+
+    .a img {
+        border-radius: 50%;
+        max-width: 100%;
+    }
+
+    .dl li {
+        padding-left: 500px;
+        padding-top: 10px;
+
+        line-height: 45px;
+
+    }
+
+    .dl h4 {
+        color: white;
+        font-size: 20px;
+    }
+    .p li{
+        float: left;
+        margin-left: 150px;
+        font-weight: bold;
+    }
+    .container-fluid{
+        
+    }
+</style>
+
+<body>
+    <div class="container-fluid">
+        {{>navbar}}
+        <div class="row d-flex a" style="margin-top: 70px;">
+
+            <div class="col-lg-4 col-sm-4 col-md-4 col-xm-4" style="height: 300px;padding-left: 160px;padding-top: 60px; ">
+                <img src="img1.jpg" width="200px" height="200px" class="align-content-center" style="box-shadow: 0 4px 8px 0 rgba(0,0,0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+            </div>
+            <div class="col-lg-4 col-sm-4 col-md-4 col-xm-4" style="height: 500px;"><img src="logo.jpeg" width="400px" height="400px;" class="align-content-center" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"></div>
+            <div class="col-lg-4 col-sm-4 col-md-4 col-xm-4" style="height: 300px;padding-left: 100px;padding-top: 60px;"><img src="img2.png" width="200px" height="200px" class="align-content-center" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"></div>
+
+
+        </div>
+        <div class="row b" style="background-image: linear-gradient(to bottom right, rgba(255,140,0,0.9),rgba(255,140,0,0.4));">
+            <div class="col-lg-1 col-sm-1 col-md-1 col-xm-1"></div>
+            <div class="col-lg-5 col-sm-5 col-md-5 col-xm-5" style="height:300px;">
+                <h1 style="padding-top: 40px;padding-left: 60px;font-family: serif">KIET</h1>
+                <p style="padding-left: 60px;" class="b1">KIET Group of Institutions strives to create technically competent professionals who can contribute productively towards the betterment of the Industry and the Society as a whole. </p>
+                <p style="padding-left: 60px;color: white;font-weight: bold;" class="b1">
+                    The institute has been accredited by NAAC with Grade 'A' and its programmes (CSE, ECE, EEE, IT, ME), MCA and Pharmacy are NBA accredited.
+                </p>
+
+
+
+            </div>
+            <div class="col-lg-2 col-sm-2 col-md-2 col-xm-2"></div>
+            <div class="col-lg-3 col-sm-3 col-md-3 col-xm-3" style="height:300px;">
+                <marquee direction="up" height="300px;" onmouseover="stop()" onmouseout="start()">
+                    <ul style="list-style-type: none;">
+                        <li>KIET Group of Institutions strives to create technically competent professionals who can contribute productively towards the betterment of the Industry and the Society as a whole.</li>
+                        <li>KIET Group of Institutions strives to create technically competent professionals who can contribute productively towards the betterment of the Industry and the Society as a whole.</li>
+                        <li>KIET Group of Institutions strives to create technically competent professionals who can contribute productively towards the betterment of the Industry and the Society as a whole.</li>
+                        <li>KIET Group of Institutions strives to create technically competent professionals who can contribute productively towards the betterment of the Industry and the Society as a whole.</li>
+                        <li>KIET Group of Institutions strives to create technically competent professionals who can contribute productively towards the betterment of the Industry and the Society as a whole.</li>
+                    </ul>
+                </marquee>
+
+
+            </div>
+            <div class="col-lg-1 col-sm-1 col-md-1 col-xm-1"></div>
+        </div>
+
+        <div class="last col-lg-12 col-sm-12 col-md-12 col-xm-12 " style="height: 1000px;background-image: radial-gradient(circle,rgba(192,192,192,0.3),rgba(192,192,192,0.1));">
+            <br><br><br>
+            <div class="row c container">
+                <div class="col-lg-3 col-sm-3 col-md-3 col-xm-3"></div>
+                <div class="col-lg-6 col-sm-6 col-md-6 col-xm-6" style="height:300px;">
+                    <p class="c1" style="color:darkgrey;font-family: serif">This is an KIET alumini tracking system which would help students to make connections with old students and take benefits,guidance to move ahead in career.This system will also help old students in keeping track of college activities,events and plans for old students ,of which they can take advantage of. </p>
+                </div>
+                <div class="col-lg-3 col-sm-3 col-md-3 col-xm-3"></div>
+
+
+
+
+
+
+
+
+            </div>
+            <br>
+            <div class="row d" style="height: 300px;background-image: linear-gradient(to bottom right, rgba(255,140,0,0.9),rgba(255,140,0,0.4));">
+
+                <div class="col-lg-1 col-md-1 col-sm-1 col-xm-1"></div>
+                <div class="col-lg-10 col-md-10 col-sm-10 col-xm-10 j">
+                    <h3 style="font-weight: bold;padding-top:30px;padding-left: 200px;font-family: serif;">FEATURES</h3>
+                    <ul style="list-style-type: none;" class="dl">
+                        <li>
+                            <h4><i class="fa fa-registered" style="color:black;"></i>&emsp;Alumini Registration</h4>
+                        </li>
+                        <li>
+                            <h4><i class="fa fa-calendar" style="color: black;"></i>&emsp;Events Update on dashboard</h4>
+                        </li>
+                        <li>
+                            <h4><i class="fa fa-users" style="color: black;"></i>&emsp;Organize alumini meet</h4>
+                        </li>
+                        <li>
+                            <h4><i class="fa fa-handshake" style="color: black;"></i>&emsp;Stay in touch with classmates</h4>
+                        </li>
+
+
+
+
+                    </ul>
+
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-1 col-xm-1 "></div>
+
+
+            </div>
+            <div class="row" style="background-image: linear-gradient(to bottom,rgba(90,90,90,0.3),rgba(0,0,0,0.9));">
+
+                <div class="col-lg-1 col-md-1 col-sm-1 col-xm-1" style="height: 300px;"></div>
+                <div class="col-lg-9 col-md-9 col-sm-9 col-xm-9" style="height: 300px;" class="f">
+                    <h3 style="color: white;font-family: serif;font-weight:bold;padding-left: 450px;padding-top: 10px;">TRACK</h3>
+                    <hr style="background-color: white; ">
+                    <ul style="list-style-type: none;" class="p">
+                        <li>Home</li>
+                        <li>Gallery</li>
+                        <li>Contact-Us</li>
+                        <li>Q&A</li>
+                    </ul>
+<br><br>
+ <hr style="background-color: white; ">
+<ul style="list-style-type: none;" class="p">
+                        <li><i class="fa fa-info" style="color: white;"></i></li>
+                        <li><i class="fa fa-bell" style="color: white;"></i></li>
+                        <li><i class="fa fa-envelope" style="color: white;"></i></li>
+                <li><i class="fa fa-university" style="color: white;"></i></li>
+                
+                    </ul>
+                    <br><br>
+<p style="float: right;">© 2019 KIET Group of Institutions - All Rights Reserved</p>
+
+                </div>
+
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xm-2" style="height: 300px;"></div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>
